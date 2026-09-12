@@ -10,6 +10,8 @@ async function fetchEndpoint(path: string, params: Record<string, string> = {}) 
   const qs = new URLSearchParams(params).toString();
   const url = `${API_BASE}${path}${qs ? "?" + qs : ""}`;
   const headers: Record<string, string> = { "Accept": "application/json" };
+  // If API key is set, use subscription auth (bypasses x402)
+  // If no API key, omit it — x402 will return 402 with payment instructions
   if (API_KEY) headers["X-API-Key"] = API_KEY;
 
   const resp = await fetch(url, { headers });
