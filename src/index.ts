@@ -36,12 +36,7 @@ function registerTool(
   server.tool(
     name,
     description,
-    Object.fromEntries(
-      Object.entries(inputSchema.shape).map(([key, schema]) => [
-        key,
-        { description: (schema as any).description || "", type: "string" },
-      ])
-    ),
+    inputSchema.shape,
     handler
   );
 }
