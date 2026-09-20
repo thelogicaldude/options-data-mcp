@@ -1,5 +1,5 @@
 {
-  "name": "@optionsdata/mcp-server",
+  "name": "options-data-mcp",
   "version": "0.1.0",
   "description": "MCP server for Options Data API — gamma exposure, VRP, IV term structure, and more",
   "main": "dist/index.js",

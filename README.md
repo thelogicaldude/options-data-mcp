@@ -5,7 +5,7 @@ MCP (Model Context Protocol) server that exposes Options Data API endpoints as n
 ## Install
 
 ```bash
-npx -y @optionsdata/mcp-server@latest
+npx -y options-data-mcp@latest
 ```
 
 Or run from source:
@@ -26,7 +26,7 @@ Add to your agent's MCP config (e.g., Claude Desktop `claude_desktop_config.json
   "mcpServers": {
     "options-data": {
       "command": "npx",
-      "args": ["-y", "@optionsdata/mcp-server@latest"],
+      "args": ["-y", "options-data-mcp@latest"],
       "env": {
         "OPTIONS_DATA_API_KEY": "your_api_key_here"
       }
