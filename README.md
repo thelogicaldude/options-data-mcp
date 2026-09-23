@@ -11,7 +11,7 @@ npx -y options-data-mcp@latest
 Or run from source:
 
 ```bash
-git clone https://github.com/your-org/options-data-mcp
+git clone https://github.com/thelogicaldude/options-data-mcp
 cd options-data-mcp
 npm install && npm run build
 npm run start
