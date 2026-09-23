@@ -24,7 +24,7 @@ async function fetchEndpoint(path: string, params: Record<string, string> = {}) 
 
 const server = new McpServer({
   name: "options-data",
-  version: "0.1.0",
+  version: "0.1.2",
 });
 
 function registerTool(
