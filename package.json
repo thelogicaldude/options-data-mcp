@@ -1,6 +1,6 @@
 {
   "name": "options-data-mcp",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "MCP server for Options Data API — gamma exposure, VRP, IV term structure, and more",
   "main": "dist/index.js",
   "bin": {
@@ -30,7 +30,7 @@
     "server": {
       "name": "options-data",
       "description": "Options market structure data via the Options Data API — gamma exposure, volatility richness, IV term structure, GEX regime, strike recommendations, credit spreads, and a universe screener. Supports both subscription auth (X-API-Key header) and x402 pay-per-call (no key needed).",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "repository": "github.com/thelogicaldude/options-data-mcp",
       "tools": [
         {
